@@ -1,0 +1,214 @@
+[
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_update_event.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_update_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_user_profile.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_each_item_user_side.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\each_item_user_side.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_payment_receipt.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_payment_receipt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_admin_dashboard.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_add_places.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_add_places.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_update_place.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_update_place.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_pay_now.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_pay_now.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_low_quality_p1voysn3ig.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\low_quality_p1voysn3ig.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_each_item_admin.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\each_item_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_doodle.png.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\doodle.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-40:/layout_activity_view_an_event.xml.flat",
+        "source": "com.example.myapplication.app-main-42:/layout/activity_view_an_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_add_event.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_add_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_add_hotels.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_add_hotels.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_update_payment.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_update_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_view_all_hotels_user.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_all_hotels_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_book_tour.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_book_tour.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_update_hotel.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_update_hotel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_view_all_places_user.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_all_places_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_view_all_events_user.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_all_events_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_view_all_hotels_admin.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_all_hotels_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_view_all_places_admin.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_all_places_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_view_ahotel.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_ahotel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_update_booking.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_update_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_view_all_events_admin.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_all_events_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_my_bookings.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_my_bookings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_admin_3d_illustration_icon_png.webp.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\admin_3d_illustration_icon_png.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_heritagetrails.png.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\heritagetrails.png"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_view_an_event.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_an_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_view_aplace.xml.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_aplace.xml"
+    }
+]

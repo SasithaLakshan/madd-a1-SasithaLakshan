@@ -13,7 +13,85 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ViewAPlace"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAnEvent"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllPlacesUser"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllPlacesAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllHotelsUser"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllHotelsAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllEventsUser"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAllEventsAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAHotel"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatePlace"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatePayment"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateHotel"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateEvent"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateBooking"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".PayNow"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentReceipt"
+            android:exported="false" />
+        <activity
+            android:name=".MyBookings"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".BookTour"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".AddEvent"
+            android:exported="false" />
+        <activity
+            android:name=".AddPlaces"
+            android:exported="false" />
+        <activity
+            android:name=".AddHotels"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +99,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
