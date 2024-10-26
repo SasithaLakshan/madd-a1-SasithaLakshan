@@ -24,7 +24,7 @@
         android:id="@+id/tvDes"
         android:layout_width="358dp"
         android:layout_height="177dp"
-        android:text="be jeweled as one of the finest_five_star_colombo_hotels_located_in_between_galle_face_green_the_world_trade_centre_and_the_dutch_hospital_precinct_we_welcome_you_to_the_kingsbury_hotel_in_colombo_with_easy_access_for_your_shopping_entertainment_and_business_needs_we_will_ensure_your_stay_is_perfect_and_your_experiences_are_complete"
+        android:text="Whether it is for business or pleasure, make your visit truly exceptional and memorable by staying at Hotel Marino Beach that offers an experience with a blend or luxary"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -88,7 +88,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.899"
-        app:srcCompat="@drawable/low_quality_p1voysn3ig" />
+        app:srcCompat="@drawable/photo1jpg" />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -101,7 +101,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.703"
-        app:srcCompat="@drawable/low_quality_p1voysn3ig" />
+        app:srcCompat="@drawable/images__2_" />
 
     <ImageView
         android:id="@+id/imageView17"
@@ -114,7 +114,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.705"
-        app:srcCompat="@drawable/low_quality_p1voysn3ig" />
+        app:srcCompat="@drawable/images__1_" />
 
     <ImageView
         android:id="@+id/imageView20"
@@ -127,7 +127,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.899"
-        app:srcCompat="@drawable/low_quality_p1voysn3ig" />
+        app:srcCompat="@drawable/marino_beach_colombo" />
 
     <ImageView
         android:id="@+id/imageView19"
@@ -140,7 +140,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.899"
-        app:srcCompat="@drawable/low_quality_p1voysn3ig" />
+        app:srcCompat="@drawable/_0180822_074426_largejpg" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -153,7 +153,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.704"
-        app:srcCompat="@drawable/low_quality_p1voysn3ig" />
+        app:srcCompat="@drawable/marino_beach" />
 
 
 

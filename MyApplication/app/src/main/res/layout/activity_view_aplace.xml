@@ -10,7 +10,7 @@
         android:id="@+id/tvName"
         android:layout_width="116dp"
         android:layout_height="wrap_content"
-        android:text="sigiriya"
+        android:text="Sigiriya"
         android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,14 +32,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.058"
-        app:srcCompat="@drawable/low_quality_p1voysn3ig" />
+        app:srcCompat="@drawable/images__5_" />
 
     <TextView
         android:id="@+id/tvCity"
         android:layout_width="193dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="dambulla"
+        android:text="Dambulla"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.935"
@@ -62,14 +62,15 @@
         android:id="@+id/textView14"
         android:layout_width="93dp"
         android:layout_height="36dp"
-        android:text="direction"
+        android:text="Directions"
+        android:textStyle="bold"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.094"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521" />
+        app:layout_constraintVertical_bias="0.549" />
 
     <TextView
         android:id="@+id/tvDes"
@@ -95,6 +96,6 @@
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/low_quality_p1voysn3ig" />
+        app:srcCompat="@drawable/images" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
