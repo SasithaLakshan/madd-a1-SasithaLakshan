@@ -31,9 +31,6 @@ public final class ActivityUserProfileBinding implements ViewBinding {
   public final Button btnUpdate;
 
   @NonNull
-  public final Button button7;
-
-  @NonNull
   public final ImageView imageView8;
 
   @NonNull
@@ -55,15 +52,13 @@ public final class ActivityUserProfileBinding implements ViewBinding {
   public final TextView tvWelcomeName;
 
   private ActivityUserProfileBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogout,
-      @NonNull Button btnMyBookings, @NonNull Button btnUpdate, @NonNull Button button7,
-      @NonNull ImageView imageView8, @NonNull ImageView imageView9, @NonNull TextView textView10,
-      @NonNull TextView textView8, @NonNull TextView tvEmail, @NonNull TextView tvName,
-      @NonNull TextView tvWelcomeName) {
+      @NonNull Button btnMyBookings, @NonNull Button btnUpdate, @NonNull ImageView imageView8,
+      @NonNull ImageView imageView9, @NonNull TextView textView10, @NonNull TextView textView8,
+      @NonNull TextView tvEmail, @NonNull TextView tvName, @NonNull TextView tvWelcomeName) {
     this.rootView = rootView;
     this.btnLogout = btnLogout;
     this.btnMyBookings = btnMyBookings;
     this.btnUpdate = btnUpdate;
-    this.button7 = button7;
     this.imageView8 = imageView8;
     this.imageView9 = imageView9;
     this.textView10 = textView10;
@@ -118,12 +113,6 @@ public final class ActivityUserProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button7;
-      Button button7 = ViewBindings.findChildViewById(rootView, id);
-      if (button7 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView8;
       ImageView imageView8 = ViewBindings.findChildViewById(rootView, id);
       if (imageView8 == null) {
@@ -167,8 +156,7 @@ public final class ActivityUserProfileBinding implements ViewBinding {
       }
 
       return new ActivityUserProfileBinding((ConstraintLayout) rootView, btnLogout, btnMyBookings,
-          btnUpdate, button7, imageView8, imageView9, textView10, textView8, tvEmail, tvName,
-          tvWelcomeName);
+          btnUpdate, imageView8, imageView9, textView10, textView8, tvEmail, tvName, tvWelcomeName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

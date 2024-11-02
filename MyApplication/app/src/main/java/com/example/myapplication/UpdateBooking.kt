@@ -101,14 +101,31 @@ class UpdateBooking : AppCompatActivity() {
             }
         }
 
+//        binding.btnDlt.setOnClickListener {
+//            databaseRef.child(id).removeValue().addOnCompleteListener {
+//                if (it.isSuccessful) {
+//                    Toast.makeText(this, "Booking deleted", Toast.LENGTH_SHORT).show()
+//                    intent = Intent(applicationContext, MyBookings::class.java)
+//                    startActivity(intent)
+//                }
+//            }
+//        }
         binding.btnDlt.setOnClickListener {
-            databaseRef.child(id).removeValue().addOnCompleteListener {
-                if (it.isSuccessful) {
-                    Toast.makeText(this, "Booking deleted", Toast.LENGTH_SHORT).show()
-                    intent = Intent(applicationContext, MyBookings::class.java)
-                    startActivity(intent)
+            // Verify that the id is not null or empty
+            if (id.isNotEmpty()) {
+                databaseRef.child(id).removeValue().addOnCompleteListener { task ->
+                    if (task.isSuccessful) {
+                        Toast.makeText(this, "Booking deleted", Toast.LENGTH_SHORT).show()
+                        intent = Intent(applicationContext, MyBookings::class.java)
+                        startActivity(intent)
+                    } else {
+                        Toast.makeText(this, "Failed to delete booking: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
+                    }
                 }
+            } else {
+                Toast.makeText(this, "Invalid booking ID", Toast.LENGTH_SHORT).show()
             }
         }
+
     }
 }

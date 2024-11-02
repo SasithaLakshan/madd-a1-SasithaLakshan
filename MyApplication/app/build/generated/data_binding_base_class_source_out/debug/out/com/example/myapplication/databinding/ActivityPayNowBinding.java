@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -47,6 +48,9 @@ public final class ActivityPayNowBinding implements ViewBinding {
   public final TextInputEditText etNameOnCard;
 
   @NonNull
+  public final ImageView imageView12;
+
+  @NonNull
   public final TextView textView7;
 
   @NonNull
@@ -59,7 +63,8 @@ public final class ActivityPayNowBinding implements ViewBinding {
       @NonNull Button btnPayNow, @NonNull CheckBox checkBox, @NonNull TextInputEditText etCVV,
       @NonNull TextInputEditText etCardNo, @NonNull TextInputEditText etCardType,
       @NonNull TextInputEditText etExpiration, @NonNull TextInputEditText etNameOnCard,
-      @NonNull TextView textView7, @NonNull TextView textView9, @NonNull TextView tvTotal) {
+      @NonNull ImageView imageView12, @NonNull TextView textView7, @NonNull TextView textView9,
+      @NonNull TextView tvTotal) {
     this.rootView = rootView;
     this.btnCancel = btnCancel;
     this.btnPayNow = btnPayNow;
@@ -69,6 +74,7 @@ public final class ActivityPayNowBinding implements ViewBinding {
     this.etCardType = etCardType;
     this.etExpiration = etExpiration;
     this.etNameOnCard = etNameOnCard;
+    this.imageView12 = imageView12;
     this.textView7 = textView7;
     this.textView9 = textView9;
     this.tvTotal = tvTotal;
@@ -149,6 +155,12 @@ public final class ActivityPayNowBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView12;
+      ImageView imageView12 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView12 == null) {
+        break missingId;
+      }
+
       id = R.id.textView7;
       TextView textView7 = ViewBindings.findChildViewById(rootView, id);
       if (textView7 == null) {
@@ -168,7 +180,8 @@ public final class ActivityPayNowBinding implements ViewBinding {
       }
 
       return new ActivityPayNowBinding((ConstraintLayout) rootView, btnCancel, btnPayNow, checkBox,
-          etCVV, etCardNo, etCardType, etExpiration, etNameOnCard, textView7, textView9, tvTotal);
+          etCVV, etCardNo, etCardType, etExpiration, etNameOnCard, imageView12, textView7,
+          textView9, tvTotal);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

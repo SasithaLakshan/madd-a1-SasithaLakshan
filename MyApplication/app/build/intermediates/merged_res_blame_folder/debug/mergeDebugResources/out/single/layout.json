@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\activity_add_places.xml",
-        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_add_places.xml"
-    },
-    {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\activity_view_all_events_admin.xml",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_all_events_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\activity_add_places.xml",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_add_places.xml"
     },
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\activity_admin_dashboard.xml",
@@ -22,10 +22,6 @@
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\activity_add_event.xml",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_add_event.xml"
-    },
-    {
-        "merged": "com.example.myapplication.app-mergeDebugResources-39:/layout/activity_view_an_event.xml",
-        "source": "com.example.myapplication.app-main-42:/layout/activity_view_an_event.xml"
     },
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\activity_view_all_places_admin.xml",
@@ -102,6 +98,10 @@
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\activity_view_an_event.xml",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_an_event.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-39:/layout/activity_user_profile.xml",
+        "source": "com.example.myapplication.app-main-42:/layout/activity_user_profile.xml"
     },
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-mergeDebugResources-39:\\layout\\activity_update_booking.xml",

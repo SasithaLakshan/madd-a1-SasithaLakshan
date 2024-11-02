@@ -2884,6 +2884,7 @@ int dimen tooltip_precise_anchor_threshold 0x7f060319
 int dimen tooltip_vertical_padding 0x7f06031a
 int dimen tooltip_y_offset_non_touch 0x7f06031b
 int dimen tooltip_y_offset_touch 0x7f06031c
+int drawable _0180822_074426_largejpg 0x7f070104
 int drawable abc_ab_share_pack_mtrl_alpha 0x7f070029
 int drawable abc_action_bar_item_background_material 0x7f07002a
 int drawable abc_btn_borderless_material 0x7f07002b
@@ -3004,6 +3005,7 @@ int drawable doodle 0x7f07009d
 int drawable googleg_disabled_color_18 0x7f07009e
 int drawable googleg_standard_color_18 0x7f07009f
 int drawable heritagetrails 0x7f0700a0
+int drawable hotel_image 0x7f070105
 int drawable ic_arrow_back_black_24 0x7f0700a1
 int drawable ic_call_answer 0x7f0700a2
 int drawable ic_call_answer_low 0x7f0700a3
@@ -3027,6 +3029,11 @@ int drawable ic_other_sign_in 0x7f0700b4
 int drawable ic_passkey 0x7f0700b5
 int drawable ic_password 0x7f0700b6
 int drawable ic_search_black_24 0x7f0700b7
+int drawable images 0x7f070106
+int drawable images__1_ 0x7f070107
+int drawable images__2_ 0x7f070108
+int drawable images__4_ 0x7f070109
+int drawable images__5_ 0x7f07010a
 int drawable low_quality_p1voysn3ig 0x7f0700b8
 int drawable m3_appbar_background 0x7f0700b9
 int drawable m3_avd_hide_password 0x7f0700ba
@@ -3040,6 +3047,8 @@ int drawable m3_tabs_background 0x7f0700c1
 int drawable m3_tabs_line_indicator 0x7f0700c2
 int drawable m3_tabs_rounded_line_indicator 0x7f0700c3
 int drawable m3_tabs_transparent_background 0x7f0700c4
+int drawable marino_beach 0x7f07010b
+int drawable marino_beach_colombo 0x7f07010c
 int drawable material_cursor_drawable 0x7f0700c5
 int drawable material_ic_calendar_black_24dp 0x7f0700c6
 int drawable material_ic_clear_black_24dp 0x7f0700c7
@@ -3100,6 +3109,7 @@ int drawable notification_template_icon_bg 0x7f0700fd
 int drawable notification_template_icon_low_bg 0x7f0700fe
 int drawable notification_tile_bg 0x7f0700ff
 int drawable notify_panel_notification_icon_bg 0x7f070100
+int drawable photo1jpg 0x7f07010d
 int drawable test_level_drawable 0x7f070101
 int drawable tooltip_frame_dark 0x7f070102
 int drawable tooltip_frame_light 0x7f070103
@@ -3227,12 +3237,10 @@ int id btnSignUp 0x7f080078
 int id btnSubmit 0x7f080079
 int id btnUpdate 0x7f08007a
 int id button14 0x7f08007b
-int id button7 0x7f08007c
 int id buttonPanel 0x7f08007d
 int id cache_measures 0x7f08007e
 int id callMeasure 0x7f08007f
 int id cancel_button 0x7f080080
-int id cardView3 0x7f080081
 int id cardView7 0x7f080082
 int id carryVelocity 0x7f080083
 int id center 0x7f080084
@@ -3372,6 +3380,9 @@ int id image 0x7f080109
 int id imageView 0x7f08010a
 int id imageView10 0x7f08010b
 int id imageView11 0x7f08010c
+int id imageView12 0x7f080259
+int id imageView13 0x7f08025a
+int id imageView14 0x7f08025b
 int id imageView15 0x7f08010d
 int id imageView16 0x7f08010e
 int id imageView17 0x7f08010f
@@ -3380,6 +3391,8 @@ int id imageView19 0x7f080111
 int id imageView2 0x7f080112
 int id imageView20 0x7f080113
 int id imageView21 0x7f080114
+int id imageView22 0x7f08025c
+int id imageView23 0x7f08025d
 int id imageView3 0x7f080115
 int id imageView4 0x7f080116
 int id imageView5 0x7f080117
@@ -3630,13 +3643,13 @@ int id textView13 0x7f08020b
 int id textView14 0x7f08020c
 int id textView15 0x7f08020d
 int id textView16 0x7f08020e
+int id textView17 0x7f08025e
 int id textView2 0x7f08020f
 int id textView22 0x7f080210
 int id textView29 0x7f080211
 int id textView3 0x7f080212
 int id textView30 0x7f080213
 int id textView32 0x7f080214
-int id textView35 0x7f080215
 int id textView36 0x7f080216
 int id textView37 0x7f080217
 int id textView4 0x7f080218

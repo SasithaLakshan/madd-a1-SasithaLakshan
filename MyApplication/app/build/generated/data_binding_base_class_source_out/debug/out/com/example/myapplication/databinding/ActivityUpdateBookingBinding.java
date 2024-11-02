@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,9 +33,6 @@ public final class ActivityUpdateBookingBinding implements ViewBinding {
   public final Button btnSubmit;
 
   @NonNull
-  public final CardView cardView3;
-
-  @NonNull
   public final CardView cardView7;
 
   @NonNull
@@ -53,6 +51,9 @@ public final class ActivityUpdateBookingBinding implements ViewBinding {
   public final EditText etVehicleType;
 
   @NonNull
+  public final ImageView imageView13;
+
+  @NonNull
   public final TextView textView;
 
   @NonNull
@@ -63,6 +64,9 @@ public final class ActivityUpdateBookingBinding implements ViewBinding {
 
   @NonNull
   public final TextView textView4;
+
+  @NonNull
+  public final TextView textView5;
 
   @NonNull
   public final TextView textView6;
@@ -78,26 +82,28 @@ public final class ActivityUpdateBookingBinding implements ViewBinding {
 
   private ActivityUpdateBookingBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnCalcTot, @NonNull Button btnDlt, @NonNull Button btnSubmit,
-      @NonNull CardView cardView3, @NonNull CardView cardView7, @NonNull EditText etAdults,
-      @NonNull EditText etChildren, @NonNull EditText etDestination, @NonNull EditText etNoDays,
-      @NonNull EditText etVehicleType, @NonNull TextView textView, @NonNull TextView textView10,
-      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView6,
-      @NonNull TextView textView7, @NonNull TextView textView9, @NonNull TextView tvTotal) {
+      @NonNull CardView cardView7, @NonNull EditText etAdults, @NonNull EditText etChildren,
+      @NonNull EditText etDestination, @NonNull EditText etNoDays, @NonNull EditText etVehicleType,
+      @NonNull ImageView imageView13, @NonNull TextView textView, @NonNull TextView textView10,
+      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
+      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView9,
+      @NonNull TextView tvTotal) {
     this.rootView = rootView;
     this.btnCalcTot = btnCalcTot;
     this.btnDlt = btnDlt;
     this.btnSubmit = btnSubmit;
-    this.cardView3 = cardView3;
     this.cardView7 = cardView7;
     this.etAdults = etAdults;
     this.etChildren = etChildren;
     this.etDestination = etDestination;
     this.etNoDays = etNoDays;
     this.etVehicleType = etVehicleType;
+    this.imageView13 = imageView13;
     this.textView = textView;
     this.textView10 = textView10;
     this.textView3 = textView3;
     this.textView4 = textView4;
+    this.textView5 = textView5;
     this.textView6 = textView6;
     this.textView7 = textView7;
     this.textView9 = textView9;
@@ -149,12 +155,6 @@ public final class ActivityUpdateBookingBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cardView3;
-      CardView cardView3 = ViewBindings.findChildViewById(rootView, id);
-      if (cardView3 == null) {
-        break missingId;
-      }
-
       id = R.id.cardView7;
       CardView cardView7 = ViewBindings.findChildViewById(rootView, id);
       if (cardView7 == null) {
@@ -191,6 +191,12 @@ public final class ActivityUpdateBookingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView13;
+      ImageView imageView13 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView13 == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
@@ -212,6 +218,12 @@ public final class ActivityUpdateBookingBinding implements ViewBinding {
       id = R.id.textView4;
       TextView textView4 = ViewBindings.findChildViewById(rootView, id);
       if (textView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView5;
+      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
+      if (textView5 == null) {
         break missingId;
       }
 
@@ -240,8 +252,8 @@ public final class ActivityUpdateBookingBinding implements ViewBinding {
       }
 
       return new ActivityUpdateBookingBinding((ConstraintLayout) rootView, btnCalcTot, btnDlt,
-          btnSubmit, cardView3, cardView7, etAdults, etChildren, etDestination, etNoDays,
-          etVehicleType, textView, textView10, textView3, textView4, textView6, textView7,
+          btnSubmit, cardView7, etAdults, etChildren, etDestination, etNoDays, etVehicleType,
+          imageView13, textView, textView10, textView3, textView4, textView5, textView6, textView7,
           textView9, tvTotal);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -2885,6 +2885,7 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+drawable _0180822_074426_largejpg
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -3005,6 +3006,7 @@ drawable doodle
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable heritagetrails
+drawable hotel_image
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3028,6 +3030,11 @@ drawable ic_other_sign_in
 drawable ic_passkey
 drawable ic_password
 drawable ic_search_black_24
+drawable images
+drawable images__1_
+drawable images__2_
+drawable images__4_
+drawable images__5_
 drawable low_quality_p1voysn3ig
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -3041,6 +3048,8 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable marino_beach
+drawable marino_beach_colombo
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -3101,6 +3110,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable photo1jpg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3228,12 +3238,10 @@ id btnSignUp
 id btnSubmit
 id btnUpdate
 id button14
-id button7
 id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
-id cardView3
 id cardView7
 id carryVelocity
 id center
@@ -3373,6 +3381,9 @@ id image
 id imageView
 id imageView10
 id imageView11
+id imageView12
+id imageView13
+id imageView14
 id imageView15
 id imageView16
 id imageView17
@@ -3381,6 +3392,8 @@ id imageView19
 id imageView2
 id imageView20
 id imageView21
+id imageView22
+id imageView23
 id imageView3
 id imageView4
 id imageView5
@@ -3631,13 +3644,13 @@ id textView13
 id textView14
 id textView15
 id textView16
+id textView17
 id textView2
 id textView22
 id textView29
 id textView3
 id textView30
 id textView32
-id textView35
 id textView36
 id textView37
 id textView4

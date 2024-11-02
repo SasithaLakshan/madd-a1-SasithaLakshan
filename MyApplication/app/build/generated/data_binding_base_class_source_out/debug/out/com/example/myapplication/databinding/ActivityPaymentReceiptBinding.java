@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,16 +28,19 @@ public final class ActivityPaymentReceiptBinding implements ViewBinding {
   public final Button btnUpdate;
 
   @NonNull
+  public final ImageView imageView12;
+
+  @NonNull
   public final TextView textView11;
 
   @NonNull
   public final TextView textView13;
 
   @NonNull
-  public final TextView textView3;
+  public final TextView textView4;
 
   @NonNull
-  public final TextView textView4;
+  public final TextView textView9;
 
   @NonNull
   public final TextView tvAmt;
@@ -45,16 +49,17 @@ public final class ActivityPaymentReceiptBinding implements ViewBinding {
   public final TextView tvName;
 
   private ActivityPaymentReceiptBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnOk,
-      @NonNull Button btnUpdate, @NonNull TextView textView11, @NonNull TextView textView13,
-      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView tvAmt,
-      @NonNull TextView tvName) {
+      @NonNull Button btnUpdate, @NonNull ImageView imageView12, @NonNull TextView textView11,
+      @NonNull TextView textView13, @NonNull TextView textView4, @NonNull TextView textView9,
+      @NonNull TextView tvAmt, @NonNull TextView tvName) {
     this.rootView = rootView;
     this.btnOk = btnOk;
     this.btnUpdate = btnUpdate;
+    this.imageView12 = imageView12;
     this.textView11 = textView11;
     this.textView13 = textView13;
-    this.textView3 = textView3;
     this.textView4 = textView4;
+    this.textView9 = textView9;
     this.tvAmt = tvAmt;
     this.tvName = tvName;
   }
@@ -98,6 +103,12 @@ public final class ActivityPaymentReceiptBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView12;
+      ImageView imageView12 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView12 == null) {
+        break missingId;
+      }
+
       id = R.id.textView11;
       TextView textView11 = ViewBindings.findChildViewById(rootView, id);
       if (textView11 == null) {
@@ -110,15 +121,15 @@ public final class ActivityPaymentReceiptBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
-        break missingId;
-      }
-
       id = R.id.textView4;
       TextView textView4 = ViewBindings.findChildViewById(rootView, id);
       if (textView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView9;
+      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
+      if (textView9 == null) {
         break missingId;
       }
 
@@ -135,7 +146,7 @@ public final class ActivityPaymentReceiptBinding implements ViewBinding {
       }
 
       return new ActivityPaymentReceiptBinding((ConstraintLayout) rootView, btnOk, btnUpdate,
-          textView11, textView13, textView3, textView4, tvAmt, tvName);
+          imageView12, textView11, textView13, textView4, textView9, tvAmt, tvName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

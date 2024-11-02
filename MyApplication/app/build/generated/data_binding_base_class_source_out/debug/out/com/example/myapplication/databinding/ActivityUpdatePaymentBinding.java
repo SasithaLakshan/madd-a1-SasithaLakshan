@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -47,7 +48,13 @@ public final class ActivityUpdatePaymentBinding implements ViewBinding {
   public final TextInputEditText etNameOnCard;
 
   @NonNull
+  public final ImageView imageView22;
+
+  @NonNull
   public final TextView textView16;
+
+  @NonNull
+  public final TextView textView17;
 
   @NonNull
   public final TextView textView7;
@@ -62,8 +69,8 @@ public final class ActivityUpdatePaymentBinding implements ViewBinding {
       @NonNull Button btnUpdate, @NonNull CheckBox checkBox, @NonNull TextInputEditText etCVV,
       @NonNull TextInputEditText etCardNo, @NonNull TextInputEditText etCardType,
       @NonNull TextInputEditText etExpiration, @NonNull TextInputEditText etNameOnCard,
-      @NonNull TextView textView16, @NonNull TextView textView7, @NonNull TextView textView9,
-      @NonNull TextView tvTotAmt) {
+      @NonNull ImageView imageView22, @NonNull TextView textView16, @NonNull TextView textView17,
+      @NonNull TextView textView7, @NonNull TextView textView9, @NonNull TextView tvTotAmt) {
     this.rootView = rootView;
     this.btnDlt = btnDlt;
     this.btnUpdate = btnUpdate;
@@ -73,7 +80,9 @@ public final class ActivityUpdatePaymentBinding implements ViewBinding {
     this.etCardType = etCardType;
     this.etExpiration = etExpiration;
     this.etNameOnCard = etNameOnCard;
+    this.imageView22 = imageView22;
     this.textView16 = textView16;
+    this.textView17 = textView17;
     this.textView7 = textView7;
     this.textView9 = textView9;
     this.tvTotAmt = tvTotAmt;
@@ -154,9 +163,21 @@ public final class ActivityUpdatePaymentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView22;
+      ImageView imageView22 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView22 == null) {
+        break missingId;
+      }
+
       id = R.id.textView16;
       TextView textView16 = ViewBindings.findChildViewById(rootView, id);
       if (textView16 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView17;
+      TextView textView17 = ViewBindings.findChildViewById(rootView, id);
+      if (textView17 == null) {
         break missingId;
       }
 
@@ -179,8 +200,8 @@ public final class ActivityUpdatePaymentBinding implements ViewBinding {
       }
 
       return new ActivityUpdatePaymentBinding((ConstraintLayout) rootView, btnDlt, btnUpdate,
-          checkBox, etCVV, etCardNo, etCardType, etExpiration, etNameOnCard, textView16, textView7,
-          textView9, tvTotAmt);
+          checkBox, etCVV, etCardNo, etCardType, etExpiration, etNameOnCard, imageView22,
+          textView16, textView17, textView7, textView9, tvTotAmt);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

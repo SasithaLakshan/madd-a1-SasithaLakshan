@@ -28,7 +28,7 @@ public final class ActivityViewAnEventBinding implements ViewBinding {
   public final ImageView imageView11;
 
   @NonNull
-  public final TextView textView15;
+  public final ImageView imageView23;
 
   @NonNull
   public final TextView tvDes;
@@ -37,12 +37,12 @@ public final class ActivityViewAnEventBinding implements ViewBinding {
   public final TextView tvName;
 
   private ActivityViewAnEventBinding(@NonNull ConstraintLayout rootView, @NonNull Button button14,
-      @NonNull ImageView imageView11, @NonNull TextView textView15, @NonNull TextView tvDes,
+      @NonNull ImageView imageView11, @NonNull ImageView imageView23, @NonNull TextView tvDes,
       @NonNull TextView tvName) {
     this.rootView = rootView;
     this.button14 = button14;
     this.imageView11 = imageView11;
-    this.textView15 = textView15;
+    this.imageView23 = imageView23;
     this.tvDes = tvDes;
     this.tvName = tvName;
   }
@@ -86,9 +86,9 @@ public final class ActivityViewAnEventBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView15;
-      TextView textView15 = ViewBindings.findChildViewById(rootView, id);
-      if (textView15 == null) {
+      id = R.id.imageView23;
+      ImageView imageView23 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView23 == null) {
         break missingId;
       }
 
@@ -105,7 +105,7 @@ public final class ActivityViewAnEventBinding implements ViewBinding {
       }
 
       return new ActivityViewAnEventBinding((ConstraintLayout) rootView, button14, imageView11,
-          textView15, tvDes, tvName);
+          imageView23, tvDes, tvName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

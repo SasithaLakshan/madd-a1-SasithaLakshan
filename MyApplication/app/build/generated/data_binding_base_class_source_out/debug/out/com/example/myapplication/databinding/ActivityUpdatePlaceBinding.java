@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -37,31 +38,35 @@ public final class ActivityUpdatePlaceBinding implements ViewBinding {
   public final EditText etName;
 
   @NonNull
+  public final ImageView imageView14;
+
+  @NonNull
   public final TextView textView30;
 
   @NonNull
   public final TextView textView32;
 
   @NonNull
-  public final TextView textView35;
+  public final TextView textView36;
 
   @NonNull
-  public final TextView textView36;
+  public final TextView textView37;
 
   private ActivityUpdatePlaceBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnDelete,
       @NonNull Button btnUpdate, @NonNull EditText etDescription, @NonNull EditText etLocation,
-      @NonNull EditText etName, @NonNull TextView textView30, @NonNull TextView textView32,
-      @NonNull TextView textView35, @NonNull TextView textView36) {
+      @NonNull EditText etName, @NonNull ImageView imageView14, @NonNull TextView textView30,
+      @NonNull TextView textView32, @NonNull TextView textView36, @NonNull TextView textView37) {
     this.rootView = rootView;
     this.btnDelete = btnDelete;
     this.btnUpdate = btnUpdate;
     this.etDescription = etDescription;
     this.etLocation = etLocation;
     this.etName = etName;
+    this.imageView14 = imageView14;
     this.textView30 = textView30;
     this.textView32 = textView32;
-    this.textView35 = textView35;
     this.textView36 = textView36;
+    this.textView37 = textView37;
   }
 
   @Override
@@ -121,6 +126,12 @@ public final class ActivityUpdatePlaceBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView14;
+      ImageView imageView14 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView14 == null) {
+        break missingId;
+      }
+
       id = R.id.textView30;
       TextView textView30 = ViewBindings.findChildViewById(rootView, id);
       if (textView30 == null) {
@@ -133,20 +144,21 @@ public final class ActivityUpdatePlaceBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView35;
-      TextView textView35 = ViewBindings.findChildViewById(rootView, id);
-      if (textView35 == null) {
-        break missingId;
-      }
-
       id = R.id.textView36;
       TextView textView36 = ViewBindings.findChildViewById(rootView, id);
       if (textView36 == null) {
         break missingId;
       }
 
+      id = R.id.textView37;
+      TextView textView37 = ViewBindings.findChildViewById(rootView, id);
+      if (textView37 == null) {
+        break missingId;
+      }
+
       return new ActivityUpdatePlaceBinding((ConstraintLayout) rootView, btnDelete, btnUpdate,
-          etDescription, etLocation, etName, textView30, textView32, textView35, textView36);
+          etDescription, etLocation, etName, imageView14, textView30, textView32, textView36,
+          textView37);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

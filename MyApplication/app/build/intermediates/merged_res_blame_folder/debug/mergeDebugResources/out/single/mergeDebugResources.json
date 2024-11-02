@@ -24,12 +24,20 @@
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_user_profile.xml"
     },
     {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_hotel_image.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\hotel_image.jpg"
+    },
+    {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_each_item_user_side.xml.flat",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\each_item_user_side.xml"
     },
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_images__2_.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\images__2_.jpg"
     },
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_baseline_add_24.xml.flat",
@@ -72,8 +80,24 @@
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_pay_now.xml"
     },
     {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_images__1_.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\images__1_.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable__0180822_074426_largejpg.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\_0180822_074426_largejpg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_photo1jpg.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\photo1jpg.jpg"
+    },
+    {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_marino_beach.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\marino_beach.jpg"
     },
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_low_quality_p1voysn3ig.jpg.flat",
@@ -94,10 +118,6 @@
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_doodle.png.flat",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\doodle.png"
-    },
-    {
-        "merged": "com.example.myapplication.app-debug-40:/layout_activity_view_an_event.xml.flat",
-        "source": "com.example.myapplication.app-main-42:/layout/activity_view_an_event.xml"
     },
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -140,6 +160,10 @@
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_all_hotels_user.xml"
     },
     {
+        "merged": "com.example.myapplication.app-debug-40:/layout_activity_user_profile.xml.flat",
+        "source": "com.example.myapplication.app-main-42:/layout/activity_user_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_book_tour.xml.flat",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_book_tour.xml"
     },
@@ -168,6 +192,10 @@
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_home.xml"
     },
     {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_images.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\images.jpg"
+    },
+    {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_view_all_hotels_admin.xml.flat",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_all_hotels_admin.xml"
     },
@@ -184,6 +212,14 @@
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_view_ahotel.xml"
     },
     {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_images__5_.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\images__5_.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_marino_beach_colombo.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\marino_beach_colombo.jpg"
+    },
+    {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_update_booking.xml.flat",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_update_booking.xml"
     },
@@ -194,6 +230,10 @@
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\layout_activity_my_bookings.xml.flat",
         "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\layout\\activity_my_bookings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_images__4_.jpg.flat",
+        "source": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-main-42:\\drawable\\images__4_.jpg"
     },
     {
         "merged": "C:\\Users\\Sasitha\\.gradle\\daemon\\8.7\\com.example.myapplication.app-debug-40:\\drawable_admin_3d_illustration_icon_png.webp.flat",
